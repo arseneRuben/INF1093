@@ -1,14 +1,16 @@
-# Trie d'une sequence en ordre croissant a base du trie isertion
+# Trie d'une sequence en ordre croissant a base du trie rapide
 def quickSort(tab):
     if len(tab) <= 1:
         return tab
 
     pivot = tab.pop()
-
+    
     petit = []
     grand = []
 
     for val in tab:
+        
+            
         if val < pivot:
             petit.append(val)
         else:
@@ -17,7 +19,7 @@ def quickSort(tab):
     return quickSort(petit) + [pivot] + quickSort(grand)
 
 
-tab = [8, 4, 5, 3, 25, 0 , 14, -1]
+tab = [8, 4, 5, 3, 25, 0 , 14, -1, 9]
 print(quickSort(tab))
         
     
