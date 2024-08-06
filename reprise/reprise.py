@@ -29,7 +29,7 @@ def buildListSeq():
     return 0
     
 buildListSeq()
-print(fullList)
+#print(fullList)
 
 ## Exercice 3
 ## Question1  : implementons le tri de ton choix
@@ -37,7 +37,7 @@ print(fullList)
 
 
     
-listIdGrade = tri_selection(listIdGrade)
+#listIdGrade = tri(listIdGrade)
 #print(listIdGrade)
 
 ####Question 2

@@ -45,6 +45,6 @@ def printRecNames(debut, liste):
 
 
 
-#print(quickSortByAge(etudiants))
+print(quickSortByAge(etudiants))
 #searchByName("Rachy", 7, 0)
-printRecNames(0, etudiants)
+#printRecNames(0, etudiants)
